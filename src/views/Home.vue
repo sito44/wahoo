@@ -1,18 +1,33 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <!-- Game page -->
+    
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+
 
 export default {
   name: "Home",
+  data() {
+    return {
+      // game state
+      
+    };
+  },
+  methods: {
+    // functions that run on every re-render
+  },
+  computed: {
+    // functions that run only when state change is is detected. (data changes) 
+  },
+  watch: {
+    // functons that run only under specified conditions (side effects)
+  },
   components: {
-    HelloWorld
-  }
+    
+  },
 };
 </script>
